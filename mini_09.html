@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Breviculum: Il·lustració IX</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        <script src="js/quisestlullus.js" type="text/javascript"></script>
+    </head>
+    <body onload="CanviarIdioma('map9', 'ca')">
+        <table border=1 cellspacing=0 cellpadding=0 style="width:100%;">
+            <tr>
+                <td>
+                    <div class="breviculum-navigation">
+                    <center>
+                    <a href="mini_08.html">
+                        <img src="img/left-arrow.jpg" style="width:40px;height:40px;"/>
+                    </a>                 
+                    <a href="index.html">
+                        <img src="img/menu-icon.jpg" style="width:40px;height:40px;"/>
+                    </a>                   
+                    <a href="mini_10.html">
+                        <img src="img/right-arrow.jpg" style="width:40px;height:40px;"/>
+                    </a>
+                    </center>
+                    </div>
+            </td>
+                <td><center>
+                    <h1 style="font-size:5vw">Breviculum: Il·lustració IX</h1>
+                    </center>
+                </td>
+                <td>
+                    <div class="breviculum-language-selector">
+                    <center>
+                    <img src="img/ca.png" id="bandera" alt="bandera" 
+                         style="width:40px;height:40px;" title="Idioma / Language"><br>    
+                    <select id="Idiomes" onchange="CanviarIdioma('map9', this.value)" title="Select">
+                        <option value="ca">Català</option>
+                        <option value="en">English</option>
+                        <option value="es">Español</option>
+                        <option value="de">Deutsch</option>
+                        <option value="it">Italiano</option>
+                        <option value="fr">Français</option>
+                        <option value="pt">Português</option>
+                        <option value="la">Latinus</option>
+                    </select>
+                    </center>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                <div class="breviculum-miniature-content">
+                <div id="miniature-popup"></div>
+                <div class="breviculum-miniature-illustration"></div>
+                    <map id="map" name="map9">
+                        <area class="miniature-area" shape="POLY" coords=" 255,  518,  432,  389,  450,  386,  443,  481,  382,  490,  328,  566,  271,  561" 
+                              id="0" onmouseover="Bafarada('0')">
+                        <area class="miniature-area" shape="POLY" coords=" 638,  437,  669,  441,  700,  609,  645,  678,  609,  666,  628,  519,  649,  499" 
+                              id="1" onmouseover="Bafarada('1')">
+                        <area class="miniature-area" shape="POLY" coords=" 687,  263,  707,  262,  728,  447,  675,  437" 
+                              id="2" onmouseover="Bafarada('2')">
+                        <area class="miniature-area" shape="POLY" coords=" 601,  165,  718,  162,  735,  236,  670,  260,  645,  315,  669,  379,  614,  471,  564,  482,  538,  430,  549,  301" 
+                              id="3" onmouseover="Bafarada('3')">
+                        <area class="miniature-area" shape="RECT" coords=" 49,  899,  423,  1044" 
+                              id="4" onmouseover="Bafarada('4')">
+                        <area class="miniature-area" shape="RECT" coords=" 446,  894,  835,  973" 
+                              id="5" onmouseover="Bafarada('5')">                        
+                     </map>
+                    <img usemap="#map9" src="img/mini_09.jpg" style="width:100%;height:100%;">                                                                                  
+                </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="breviculum-sponsor">                        
+                    <img alt="Departament de Cultura de la Generalitat de Catalunya" 
+                         src="img/dept-cultura.jpg"/>
+                    </div>
+                </td>
+                <td>
+                    <div class="breviculum-sponsor">                        
+                    <p>Aquest projecte ha rebut el suport del<br>
+                        Departament de Cultura de la Generalitat de Catalunya.</p>
+                    </div>
+                </td>
+                <td>
+                    <div class="breviculum-sponsor">                        
+                    <a href="https://quisestlullus.narpan.net/breviculum/credits">
+                        Credits and References</a>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
