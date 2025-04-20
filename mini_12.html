@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Breviculum: Il·lustració XII</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        <script src="js/quisestlullus.js" type="text/javascript"></script>
+    </head>
+    <body onload="CanviarIdioma('map12', 'ca')">
+        <table border=1 cellspacing=0 cellpadding=0 style="width:100%;">
+            <tr>
+                <td>
+                    <div class="breviculum-navigation">
+                    <center>
+                    <a href="mini_11.html">
+                        <img src="img/left-arrow.jpg" style="width:40px;height:40px;"/>
+                    </a>                 
+                    <a href="index.html">
+                        <img src="img/menu-icon.jpg" style="width:40px;height:40px;"/>
+                    </a>                   
+                    <a href="mini_01.html">
+                        <img src="img/right-arrow.jpg" style="width:40px;height:40px;"/>
+                    </a>
+                    </center>
+                    </div>
+            </td>
+                <td><center>
+                    <h1 style="font-size:5vw">Breviculum: Il·lustració XII</h1>
+                    </center>
+                </td>
+                <td>
+                    <div class="breviculum-language-selector">
+                    <center>
+                    <img src="img/ca.png" id="bandera" alt="bandera" 
+                         style="width:40px;height:40px;" title="Idioma / Language"><br>    
+                    <select id="Idiomes" onchange="CanviarIdioma('map12', this.value)" title="Select">
+                        <option value="ca">Català</option>
+                        <option value="en">English</option>
+                        <option value="es">Español</option>
+                        <option value="de">Deutsch</option>
+                        <option value="it">Italiano</option>
+                        <option value="fr">Français</option>
+                        <option value="pt">Português</option>
+                        <option value="la">Latinus</option>
+                    </select>
+                    </center>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                <div class="breviculum-miniature-content">
+                <div id="miniature-popup"></div>
+                <div class="breviculum-miniature-illustration"></div>
+                    <map id="map" name="map12">
+                        <area class="miniature-area" shape="POLY" coords="341,  584,  467,  500,  478,  891,  430,  890" 
+                              id="0" onmouseover="Bafarada('0')">
+                        <area class="miniature-area" shape="POLY" coords="294,  590,  360,  512,  442,  464,  461,  493,  379,  550,  333,  577,  342,  615,  341,  645,  302,  636" 
+                              id="1" onmouseover="Bafarada('1')">
+                        <area class="miniature-area" shape="POLY" coords="184,  471,  445,  356,  458,  402,  321,  473,  254,  568" 
+                              id="2" onmouseover="Bafarada('2')">
+                        <area class="miniature-area" shape="POLY" coords="488,  445,  540,  415,  578,  446,  605,  544,  566,  628,  575,  786,  638,  916,  527,  919,  482,  765,  483,  561,  516,  525" 
+                              id="3" onmouseover="Bafarada('3')">
+                        <area class="miniature-area" shape="POLY" coords="658,  447,  691,  480,  710,  913,  645,  914,  577,  626,  617,  533,  630,  475" 
+                              id="4" onmouseover="Bafarada('4')">
+                        <area class="miniature-area" shape="POLY" coords="499,  309,  697,  310,  683,  388,  510,  388" 
+                              id="5" onmouseover="Bafarada('5')">
+                        <area class="miniature-area" shape="RECT" coords="182,  278,  286,  361" 
+                              id="6" onmouseover="Bafarada('6')">
+                    </map>
+                    <img usemap="#map12" src="img/mini_12.jpg" style="width:100%;height:100%;">                                                                                  
+                </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="breviculum-sponsor">                        
+                    <img alt="Departament de Cultura de la Generalitat de Catalunya" 
+                         src="img/dept-cultura.jpg"/>
+                    </div>
+                </td>
+                <td>
+                    <div class="breviculum-sponsor">                        
+                    <p>Aquest projecte ha rebut el suport del<br>
+                        Departament de Cultura de la Generalitat de Catalunya.</p>
+                    </div>
+                </td>
+                <td>
+                    <div class="breviculum-sponsor">                        
+                    <a href="https://quisestlullus.narpan.net/breviculum/credits">
+                        Credits and References</a>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
