@@ -43,13 +43,15 @@ function CanviarIdioma(IdMapa, IdIdioma) {
 
     // window.alert("scrollTo(0, 200)");
     window.scrollTo(0, 200);
+
+    if (confirm("Següent?") == true) 
     for (i in Idioma) {
         // window.alert("Següent?");
         document.getElementById(i).title = + (parseInt(i) + 1) + ". " + Idioma[i];
-        // if (confirm("Següent?") == true) 
-            Finestra(i);
-            // Bafarada(i);
+        Finestra(i);
+        // Bafarada(i);
     }
+
     // window.alert("scrollTo(0, 805)");
     window.scrollTo(0, 800);
 }
