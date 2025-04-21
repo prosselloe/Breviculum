@@ -54,7 +54,7 @@ function CanviarIdioma(IdMapa, IdIdioma_) {
     window.scrollTo(0, 200);
 }
 
-function Bafarada(IdText, X = 0, Y = 0)
+function Bafarada(IdText, X = 400, Y = 400)
 {
     // window.alert((parseInt(IdText) + 1) + ". " + Idioma[IdText]);
     /*
@@ -68,7 +68,7 @@ function Bafarada(IdText, X = 0, Y = 0)
     Finestra(IdText, X, Y);
 }
 
-function Finestra(IdText, X = 0, Y = 0)
+function Finestra(IdText, X = 400, Y = 400)
 {
     // window.alert(", height=" + (Idioma[IdText].length / 4) + ", left=" + X + ", top="  + Y);
     /*
