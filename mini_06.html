@@ -15,9 +15,8 @@ and open the template in the editor.
     <body onload="CanviarIdioma('map6', 'ca')">
         <table border=1 cellspacing=0 cellpadding=0 style="width:100%;">
             <tr>
-                <td>
+                <td><center>
                     <div class="breviculum-navigation">
-                    <center>
                     <a href="mini_05.html">
                         <img src="img/left-arrow.jpg" style="width:40px;height:40px;"/>
                     </a>                 
@@ -27,16 +26,15 @@ and open the template in the editor.
                     <a href="mini_07.html">
                         <img src="img/right-arrow.jpg" style="width:40px;height:40px;"/>
                     </a>
-                    </center>
                     </div>
+                    </center>
             </td>
                 <td><center>
                     <h1 style="font-size:5vw">Breviculum: Il·lustració VI</h1>
                     </center>
                 </td>
-                <td>
+                <td><center>
                     <div class="breviculum-language-selector">
-                    <center>
                     <img src="img/ca.png" id="bandera" alt="bandera" 
                          style="width:40px;height:40px;" title="Idioma / Language"><br>    
                     <select id="Idiomes" onchange="CanviarIdioma('map6', this.value)" title="Select">
@@ -49,56 +47,77 @@ and open the template in the editor.
                         <option value="pt">Português</option>
                         <option value="la">Latinus</option>
                     </select>
-                    </center>
                     </div>
+                    </center>
                 </td>
             </tr>
             <tr>
                 <td colspan="3">
                 <div class="breviculum-miniature-content">
                 <div id="miniature-popup"></div>
-                <div class="breviculum-miniature-illustration"></div>
+                <div class="breviculum-miniature-illustration">
+                    <button type="button" onclick="Bafarada('0', 111, 46)">1.</button>&nbsp;
+                    <button type="button" onclick="Bafarada('1', 21, 746)">2.</button>&nbsp;
+                    <button type="button" onclick="Bafarada('2', 4, 842)">3.</button>&nbsp;
+                    <button type="button" onclick="Bafarada('3', 269, 818)">4.</button>&nbsp;
+                    <button type="button" onclick="Bafarada('4', 279, 555)">5.</button>&nbsp;
+                    <button type="button" onclick="Bafarada('5', 276, 389)">6.</button>&nbsp;                                            
+                    <button type="button" onclick="Bafarada('6', 384, 522)">7.</button>&nbsp;                                            
+                    <button type="button" onclick="Bafarada('7', 339, 272)">8.</button>&nbsp;
+                    <button type="button" onclick="Bafarada('8', 377, 443)">9.</button>&nbsp;
+                    <button type="button" onclick="Bafarada('9', 651, 537)">10.</button>&nbsp;
+                    <button type="button" onclick="Bafarada('10', 664, 120)">11.</button>&nbsp;
+                    <button type="button" onclick="Bafarada('11', 666, 255)">12.</button>&nbsp;
+                    <button type="button" onclick="Bafarada('12', 720, 264)">13.</button>&nbsp;                                            
+                    <button type="button" onclick="Bafarada('13', 782, 210)">14.</button>&nbsp;                                            
+                    <button type="button" onclick="Bafarada('14', 730, 152)">15.</button>&nbsp;
+                    <button type="button" onclick="Bafarada('15', 820, 300)">16.</button>&nbsp;
+                    <button type="button" onclick="Bafarada('16', 317, 1035)">17.</button>&nbsp;
+                    <button type="button" onclick="Bafarada('17', 320, 1109)">18.</button>&nbsp;
+                    <button type="button" onclick="Bafarada('18', 450, 992)">19.</button>&nbsp;
+                    <button type="button" onclick="Bafarada('19', 450, 1091)">20.</button>&nbsp;                                            
+                </div>
                     <map id="map" name="map6">
                         <area class="miniature-area" shape="RECT" coords="215,4,602,33" 
-                              id="0" onmouseover="Bafarada('0')">
+                              id="0" onclick="Bafarada('0')">
                         <area class="miniature-area" shape="RECT" coords="6,8,201,603" 
-                              id="1" onmouseover="Bafarada('1')">
+                              id="1" onclick="Bafarada('1')">
                         <area class="miniature-area" shape="RECT" coords="10,616,183,914" 
-                              id="2" onmouseover="Bafarada('2')">
+                              id="2" onclick="Bafarada('2')">
                         <area class="miniature-area" shape="POLY" coords="282,621,281,566,325,575,374,693,380,836,208,836,206,720,188,694,190,621" 
-                              id="3" onmouseover="Bafarada('3')">
+                              id="3" onclick="Bafarada('3')">
                         <area class="miniature-area" shape="RECT" coords="238,410,271,607" 
-                              id="4" onmouseover="Bafarada('4')">
+                              id="4" onclick="Bafarada('4')">
                         <area class="miniature-area" shape="RECT" coords="253,270,320,360" 
-                              id="5" onmouseover="Bafarada('5')">
+                              id="5" onclick="Bafarada('5')">
                         <area class="miniature-area" shape="POLY" coords="246,365,381,379,381,66,483,66,528,173,529,301,506,329,508,611,372,613,363,432,265,395" 
-                              id="6" onmouseover="Bafarada('6')">
+                              id="6" onclick="Bafarada('6')">
                         <area class="miniature-area" shape="POLY" coords="276,429,325,446,342,570,283,533" 
-                              id="7" onmouseover="Bafarada('7')">
+                              id="7" onclick="Bafarada('7')">
                         <area class="miniature-area" shape="POLY" coords="537,64,677,64,677,344,645,359,645,466,670,465,670,600,540,600,540,494,522,494,522,325,537,325" 
-                              id="8" onmouseover="Bafarada('8')">
+                              id="8" onclick="Bafarada('8')">
                         <area class="miniature-area" shape="POLY" coords="626,645,692,645,730,604,761,633,744,701,788,737,788,838,626,838" 
-                              id="9" onmouseover="Bafarada('9')">
+                              id="9" onclick="Bafarada('9')">
                         <area class="miniature-area" shape="RECT" coords="686,196,732,328" 
-                              id="10" onmouseover="Bafarada('10')">
+                              id="10" onclick="Bafarada('10')">
                         <area class="miniature-area" shape="POLY" coords="660,358,715,358,715,605,698,632,683,632,674,407,660,408" 
-                              id="11" onmouseover="Bafarada('11')">
+                              id="11" onclick="Bafarada('11')">
                         <area class="miniature-area" shape="POLY" coords="723,70,746,70,759,178,768,503,785,574,742,575,736,137,724,137" 
-                              id="12" onmouseover="Bafarada('12')">
+                              id="12" onclick="Bafarada('12')">
                         <area class="miniature-area" shape="POLY" coords="770,176,785,175,797,502,815,523,807,562,781,533" 
-                              id="13" onmouseover="Bafarada('13')">
+                              id="13" onclick="Bafarada('13')">
                         <area class="miniature-area" shape="POLY" coords="795,254,830,152,846,152,839,478,800,478" 
-                              id="14" onmouseover="Bafarada('14')">
+                              id="14" onclick="Bafarada('14')">
                         <area class="miniature-area" shape="POLY" coords="846,264,861,265,864,377,879,391,880,482,851,484,849,386" 
-                              id="15" onmouseover="Bafarada('15')">
+                              id="15" onclick="Bafarada('15')">
                         <area class="miniature-area" shape="RECT" coords="860,520,890,590" 
-                              id="16" onmouseover="Bafarada('16')">
+                              id="16" onclick="Bafarada('16')">
                         <area class="miniature-area" shape="POLY" coords="830,521,850,522,850,611,840,609,805,665,761,703,751,692,793,639,821,573" 
-                              id="17" onmouseover="Bafarada('17')">
+                              id="17" onclick="Bafarada('17')">
                         <area class="miniature-area" shape="RECT" coords="2,922,440,1108" 
-                              id="18" onmouseover="Bafarada('18')">
+                              id="18" onclick="Bafarada('18')">
                         <area class="miniature-area" shape="RECT" coords="450,925,490,1107" 
-                              id="19" onmouseover="Bafarada('19')">
+                              id="19" onclick="Bafarada('19')">
                     </map>
                     <img usemap="#map6" src="img/mini_06.jpg" style="width:100%;height:100%;">                                                                                  
                 </div>

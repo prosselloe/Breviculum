@@ -15,9 +15,8 @@ and open the template in the editor.
     <body onload="CanviarIdioma('map8', 'ca')">
         <table border=1 cellspacing=0 cellpadding=0 style="width:100%;">
             <tr>
-                <td>
+                <td><center>
                     <div class="breviculum-navigation">
-                    <center>
                     <a href="mini_07.html">
                         <img src="img/left-arrow.jpg" style="width:40px;height:40px;"/>
                     </a>                 
@@ -27,16 +26,15 @@ and open the template in the editor.
                     <a href="mini_09.html">
                         <img src="img/right-arrow.jpg" style="width:40px;height:40px;"/>
                     </a>
-                    </center>
                     </div>
+                    </center>
             </td>
                 <td><center>
                     <h1 style="font-size:5vw">Breviculum: Il·lustració VIII</h1>
                     </center>
                 </td>
-                <td>
+                <td><center>
                     <div class="breviculum-language-selector">
-                    <center>
                     <img src="img/ca.png" id="bandera" alt="bandera" 
                          style="width:40px;height:40px;" title="Idioma / Language"><br>    
                     <select id="Idiomes" onchange="CanviarIdioma('map8', this.value)" title="Select">
@@ -49,8 +47,8 @@ and open the template in the editor.
                         <option value="pt">Português</option>
                         <option value="la">Latinus</option>
                     </select>
-                    </center>
                     </div>
+                    </center>
                 </td>
             </tr>
             <tr>
@@ -60,11 +58,11 @@ and open the template in the editor.
                 <div class="breviculum-miniature-illustration"></div>
                     <map id="map" name="map8">
                         <area class="miniature-area" shape="POLY" coords=" 83,  226,  367,  226,  226,  540,  81,  564" 
-                              id="0" onmouseover="Bafarada('0')">
+                              id="0" onclick="Bafarada('0')">
                         <area class="miniature-area" shape="POLY" coords=" 411,  230,  489,  247,  496,  268,  637,  271,  628,  241,  688,  232,  684,  373,  528,  350,  525,  550,  411,  614" 
-                              id="1" onmouseover="Bafarada('1')">
+                              id="1" onclick="Bafarada('1')">
                         <area class="miniature-area" shape="RECT" coords=" 81,  893,  384,  1014" 
-                              id="2" onmouseover="Bafarada('2')">
+                              id="2" onclick="Bafarada('2')">
                      </map>
                     <img usemap="#map8" src="img/mini_08.jpg" style="width:100%;height:100%;">                                                                                  
                 </div>

@@ -15,9 +15,8 @@ and open the template in the editor.
     <body onload="CanviarIdioma('map1', 'ca')">
         <table border=1 cellspacing=0 cellpadding=0 style="width:100%;">
             <tr>
-                <td>
+                <td><center>
                     <div class="breviculum-navigation">
-                    <center>
                     <a href="mini_12.html">
                         <img src="img/left-arrow.jpg" style="width:40px;height:40px;"/>
                     </a>                 
@@ -27,16 +26,15 @@ and open the template in the editor.
                     <a href="mini_02.html">
                         <img src="img/right-arrow.jpg" style="width:40px;height:40px;"/>
                     </a>
-                    </center>
                     </div>
+                    </center>
                 </td>
                 <td><center>
                     <h1 style="font-size:5vw">Breviculum: Il·lustració I</h1>
                     </center>
                 </td>
-                <td>
+                <td><center>
                     <div class="breviculum-language-selector">
-                    <center>
                     <img src="img/ca.png" id="bandera" alt="bandera" 
                          style="width:40px;height:40px;" title="Idioma / Language"><br>    
                     <select id="Idiomes" onchange="CanviarIdioma('map1', this.value)" title="Select">
@@ -49,30 +47,38 @@ and open the template in the editor.
                         <option value="pt">Português</option>
                         <option value="la">Latinus</option>
                     </select>
-                    </center>
                     </div>
+                    </center>
                 </td>
             </tr>
             <tr>
                 <td colspan="3">
                 <div class="breviculum-miniature-content">
                 <div id="miniature-popup"></div>
-                <div class="breviculum-miniature-illustration"></div>
+                <div class="breviculum-miniature-illustration">
+                    <button type="button" onclick="Bafarada('0', 91, 172)">1.</button>&nbsp;
+                    <button type="button" onclick="Bafarada('1', 88, 237)">2.</button>&nbsp;
+                    <button type="button" onclick="Bafarada('2', 86, 303)">3.</button>&nbsp;
+                    <button type="button" onclick="Bafarada('3', 88, 366)">4.</button>&nbsp;
+                    <button type="button" onclick="Bafarada('4', 87, 428)">5.</button>&nbsp;
+                    <button type="button" onclick="Bafarada('5', 528, 503)">6.</button>&nbsp;                                            
+                    <button type="button" onclick="Bafarada('6', 729, 514)">7.</button>&nbsp;                                            
+                </div>
                     <map id="map" name="map1">
-                        <area class="miniature-area" shape="RECT" coords="2,  93,  91,  172" 
-                              id="0" onmouseover="Bafarada('0')">
-                        <area class="miniature-area" shape="RECT" coords="3,  190,  88,  237" 
-                              id="1" onmouseover="Bafarada('1')">
-                        <area class="miniature-area" shape="RECT" coords="3,  260,  86,  303" 
-                              id="2" onmouseover="Bafarada('2')">
-                        <area class="miniature-area" shape="RECT" coords="3,  324,  88,  366" 
-                              id="3" onmouseover="Bafarada('3')">
-                        <area class="miniature-area" shape="RECT" coords="2,  387,  87,  428" 
-                              id="4" onmouseover="Bafarada('4')">
-                        <area class="miniature-area" shape="RECT" coords="390,  88,  528,  503" 
-                              id="5" onmouseover="Bafarada('5')">
-                        <area class="miniature-area" shape="RECT" coords="635,  76,  729,  514" 
-                              id="6" onmouseover="Bafarada('6')">
+                        <area class="miniature-area" shape="RECT" coords="2, 93, 91, 172" 
+                              id="0" onclick="Bafarada('0')">
+                        <area class="miniature-area" shape="RECT" coords="3, 190, 88, 237" 
+                              id="1" onclick="Bafarada('1')">
+                        <area class="miniature-area" shape="RECT" coords="3, 260, 86, 303" 
+                              id="2" onclick="Bafarada('2')">
+                        <area class="miniature-area" shape="RECT" coords="3, 324, 88, 366" 
+                              id="3" onclick="Bafarada('3')">
+                        <area class="miniature-area" shape="RECT" coords="2, 387, 87, 428" 
+                              id="4" onclick="Bafarada('4')">
+                        <area class="miniature-area" shape="RECT" coords="390, 88, 528, 503" 
+                              id="5" onclick="Bafarada('5')">
+                        <area class="miniature-area" shape="RECT" coords="635, 76, 729, 514" 
+                              id="6" onclick="Bafarada('6')">
                     </map>
                     <img usemap="#map1" src="img/mini_01.jpg" style="width:100%;height:100%;">   
                 </div>
