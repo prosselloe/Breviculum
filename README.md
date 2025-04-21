@@ -1,5 +1,3 @@
-# Breviculum
-Breviculum: Vida Coetània de Ramon Llull (edició en català) - Tomàs Le Myésier
         <table border=1 cellspacing=0 cellpadding=0 style="width:100%;">
             <tr>
                 <td>
