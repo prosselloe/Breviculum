@@ -1,24 +1,5 @@
         <table border=1 cellspacing=0 cellpadding=0 style="width:100%;">
             <tr>
-                <td>
-                    <center>
-                    <h1 style="font-size:5vw">Breviculum: Vida Coetània de Ramon Llull</h1>  
-                    </center>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <center>
-                    Còdex miniat que conté 12 il·lustracions de grans dimensions de la <i>
-                    <a href="https://quisestlullus.narpan.net/vida-de-mestre-ramon">
-                    Vita coetanea</a></i>,<br> executades cap a 1325 per iniciativa de Tomàs 
-                    Le Myésier, un seguidor del beat vinculat a la cort de França.
-                    </center>
-                </td>
-            </tr>
-        </table>
-        <table border=1 cellspacing=0 cellpadding=0 style="width:100%;">
-            <tr>
                 <td style="vertical-align: bottom;">
                     <center>
                     <a href="mini_01.html">
