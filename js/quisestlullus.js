@@ -7,12 +7,14 @@
 // Variables Globals.
 var Mapa = {};
 var Idioma = {};
+var IdIdioma = "";
 
 // Canviam els diferents literals de la GUI segons l'idioma
-function CanviarIdioma(IdMapa, IdIdioma) {
+function CanviarIdioma(IdMapa, IdIdioma_) {
     // window.alert(all_maps.map1.ca[1]);
     // Finestra(all_maps.map1.ca[1]);
-
+    
+    IdIdioma = IdIdioma_;
     document.getElementById("bandera").src = "img/" + IdIdioma + ".png";      
 
     switch(IdMapa) {
@@ -41,44 +43,57 @@ function CanviarIdioma(IdMapa, IdIdioma) {
       case "pt": Idioma = Mapa.pt; break;
     }
 
-    // window.alert("scrollTo(0, 200)");
-    window.scrollTo(0, 200);
-
-    if (confirm("Següent?") == true) 
+    // if (confirm("Següent?") == true) 
     for (i in Idioma) {
-        // window.alert("Següent?");
         document.getElementById(i).title = + (parseInt(i) + 1) + ". " + Idioma[i];
-        Finestra(i);
+        // Finestra(i);
         // Bafarada(i);
     }
 
-    // window.alert("scrollTo(0, 805)");
-    window.scrollTo(0, 800);
+    // window.alert("scrollTo(0, 200)");
+    window.scrollTo(0, 200);
 }
 
-function Bafarada(IdText)
+function Bafarada(IdText, X = 0, Y = 0)
 {
     // window.alert((parseInt(IdText) + 1) + ". " + Idioma[IdText]);
+    /*
     document.getElementById("miniature-popup").style.display = "block";
     document.getElementById("miniature-popup").innerHTML = 
             (parseInt(IdText) + 1) + ". " + Idioma[IdText];
+    */
+   
+    // window.alert("scrollTo("+ X +", "+ Y +")");
+    window.scrollTo(X, Y);
+    Finestra(IdText, X, Y);
 }
 
-function Finestra(IdText)
+function Finestra(IdText, X = 0, Y = 0)
 {
-    const myWindow = window.open("", "_blank", "width=600" + 
+    // window.alert(", height=" + (Idioma[IdText].length / 4) + ", left=" + X + ", top="  + Y);
+    const myWindow = window.open("", "_blank", "width=800" + 
         ", height=" + (Idioma[IdText].length / 4) + 
-        ", left=" + (10 + IdText * 33) +
-        ", top="  + (10 + IdText * 25) + 
+        ", left=" + X + // (10 + IdText * 33) +
+        ", top="  + Y + // (10 + IdText * 25) + 
         ", location=0, menubar=0, resizable=0" + 
         ", scrollbars=0, status=0, titlebar=0, toolbar=0");
     myWindow.document.open();
     myWindow.document.write("<html>" + 
-        '<head><title>Brevicum: Il·lustracions</title>\n\
-         <link rel="stylesheet" href="css/demo.css"></head>' +    
-        "<body><p>" + (parseInt(IdText) + 1) + ". " + Idioma[IdText] + 
-        // "<br>" + Idioma[IdText].length + 
-        // ". <button onclick='window.close()'>X</button>" + 
+        '<head><title>Brevicum: Il·lustracions</title> \n\
+         <link rel="stylesheet" href="css/demo.css">' +    
+        "</head><body><p>" + (parseInt(IdText) + 1) + ". " + Idioma[IdText] +         
+        "<br><a href='https://translate.google.com/?hl=" + 
+        IdIdioma + "&sl=" + IdIdioma + "&tl=" + IdIdioma + "&text=" + 
+        Idioma[IdText] + "&op=translate'><img src='img/on.png' alt='on'/></a>" +        
+        /*
+        '<br><button type="button" onclick="Bafarada(' + 
+                parseInt(IdText) + ', ' + X + ',  ' + Y + ')">' + 
+                parseInt(IdText) + '.</button>' +
+            '<button type="button" onclick="Bafarada(' + 
+               (parseInt(IdText) + 2) +  ', ' + X + ',  ' + Y + ')">' + 
+               (parseInt(IdText) + 2) + '.</button>' +
+        */
+       
         "</p></body></html>");
     myWindow.document.close();            
 }
