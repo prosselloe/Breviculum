@@ -71,6 +71,11 @@ function Bafarada(IdText, X = 0, Y = 0)
 function Finestra(IdText, X = 0, Y = 0)
 {
     // window.alert(", height=" + (Idioma[IdText].length / 4) + ", left=" + X + ", top="  + Y);
+    /*
+    window.alert("<a href='https://translate.google.com/?hl=" + 
+        IdIdioma + "&sl=" + IdIdioma + "&tl=" + IdIdioma + "&text=" + 
+        Idioma[IdText] + "&op=translate'><img src='img/on.png' alt='on'/></a>");
+    */       
     const myWindow = window.open("", "_blank", "width=800" + 
         ", height=" + (Idioma[IdText].length / 4) + 
         ", left=" + X + // (10 + IdText * 33) +
@@ -78,13 +83,13 @@ function Finestra(IdText, X = 0, Y = 0)
         ", location=0, menubar=0, resizable=0" + 
         ", scrollbars=0, status=0, titlebar=0, toolbar=0");
     myWindow.document.open();
-    myWindow.document.write("<html>" + 
+    myWindow.document.write('<html>' + 
         '<head><title>Brevicum: Il·lustracions</title> \n\
          <link rel="stylesheet" href="css/demo.css">' +    
-        "</head><body><p>" + (parseInt(IdText) + 1) + ". " + Idioma[IdText] +         
-        "<br><a href='https://translate.google.com/?hl=" + 
-        IdIdioma + "&sl=" + IdIdioma + "&tl=" + IdIdioma + "&text=" + 
-        Idioma[IdText] + "&op=translate'><img src='img/on.png' alt='on'/></a>" +        
+        '</head><body><p>' + (parseInt(IdText) + 1) + '. ' + Idioma[IdText] +         
+        '<br><a href="https://translate.google.com/?hl=' + 
+        IdIdioma + '&sl=' + IdIdioma + '&tl=' + IdIdioma + '&text=' + 
+        Idioma[IdText] + '&op=translate"><img src="img/on.png" alt="on"/></a>' +        
         /*
         '<br><button type="button" onclick="Bafarada(' + 
                 parseInt(IdText) + ', ' + X + ',  ' + Y + ')">' + 
@@ -92,9 +97,8 @@ function Finestra(IdText, X = 0, Y = 0)
             '<button type="button" onclick="Bafarada(' + 
                (parseInt(IdText) + 2) +  ', ' + X + ',  ' + Y + ')">' + 
                (parseInt(IdText) + 2) + '.</button>' +
-        */
-       
-        "</p></body></html>");
+        */       
+        '</p></body></html>');
     myWindow.document.close();            
 }
 
