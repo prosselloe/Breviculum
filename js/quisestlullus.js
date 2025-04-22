@@ -51,7 +51,7 @@ function CanviarIdioma(IdMapa, IdIdioma_) {
     }
 
     // window.alert("scrollTo(0, 200)");
-    window.scrollTo(0, 999);
+    window.scrollTo(0, 900);
     document.getElementById("0.").focus();
 }
 
@@ -559,10 +559,10 @@ const all_maps = {
       11: "La seva llança: la màxima felicitat consisteix en arribar a la perfecció en els exercicis especulatius. La fe d’Averroes és herètica en totes les lleis. És necessari que l’home intel·ligent especuli a partir dels fantasmes.",
       12: "En la primera llança del carruatge: el cos, la quantitat, el moviment, el temps, la superfície, el lloc; és la consideració natural.",
       13: "En la segona llança del carruatge: tal com es comporta l’ull del mussol davant del sol, així es comporta el nostre enteniment davant d’aquelles coses que es manifesten en la naturalesa.",
-      14: "El papa crida: Oh Déu, us lloem totalment. Confiem en el nostre Senyor Jesucrist, Salvador nostre.",
-      15: "El bisbe prega: que Déu tingui pietat de nosaltres i ens beneeixi.",
-      16: "Darrere del cardenal: pel fet que els fantasmes no poden transcendir la naturalesa humana, per això, oh Averroes!, el teu enteniment està ofuscat davant de la intel·ligibilitat de les coses pures. Per tal que no ens facis caure en la temptació, refrenem els teus passos, perquè és una cosa santa exalçar la veritat a través dels molts amics que existeixen.",
-      17: "El cardenal diu: Sòcrates és un amic, però més amiga és la veritat.",
+      14: "[El papa crida:] Oh Déu, us lloem totalment. Confiem en el nostre Senyor Jesucrist, Salvador nostre.",
+      15: "[El bisbe prega:] Que Déu tingui pietat de nosaltres i ens beneeixi.",
+      16: "[Darrere del cardenal:] Pel fet que els fantasmes no poden transcendir la naturalesa humana, per això, oh Averroes!, el teu enteniment està ofuscat davant de la intel·ligibilitat de les coses pures. Per tal que no ens facis caure en la temptació, refrenem els teus passos, perquè és una cosa santa exalçar la veritat a través dels molts amics que existeixen.",
+      17: "[El cardenal diu:] Sòcrates és un amic, però més amiga és la veritat.",
       18: "[Nota I:]  La veritat està empresonada a la base de la torre en contra del seu impuls de fer-se visible, desitjant, lamentant-se, plorant i clamant amb grans crits: “Tingueu compassió de mi, tingueu compassió de mi, almenys vosaltres amics meus, perquè la mà de la ignorància m’ha tocat i en el meu lloc, de manera visible, ha estat coronada l’Opinió. I jo, que no m’agraden els racons, estic amagada contra la meva voluntat en les tenebres, i estic a les fosques en el més profund d’aquesta presó. Gairebé em moro trista, desolada i a punt del desesper, i no hi ha qui m’ajudi, ni qui em consoli, ja que són molts més els qui sostenen les opinions falses que els qui poden alliberar-me d’aquesta presó. Vosaltres, tots els filòsofs, en qui més confio llevat de Déu, perquè sou els autèntics amadors de la veritat i de la saviesa, socorreu-me, us ho demano, perquè em moro de pena! Oh senyors cristians, de quina manera podeu mantenir que sigui així presa per les mans dels jueus i dels sarraïns? que des de dalt de la torre, allà on hauria d’estar més exalçada, m’enfonsin al fons d’aquesta torre de la falsedat?",
       19: "[Nota II:] El cardenal que para els peus a Averroes: “Sabem que la imaginació no va més enllà de la naturalesa corporal. Tu, en canvi, no vols separar el teu enteniment dels fantasmes de la imaginació, ni procures raonar intensivament amb el teu enteniment, ni adherir-te de veres a la veritat real que està en els objectes, quan, de fet, la veritat real s’ofereix immutable, sinó que bloqueges tot el teu intel·lecte i només consideres el fonament de les raons en les coses purament naturals i gairebé sensuals. Compares simplement les coses sobrenaturals existint i actuant amb les coses variables, oblides l’eminència de les sobrenaturals, t’equivoques i peques perquè permets que la imaginació superi el teu intel·lecte; i vols atreure cap a la teva intenció física i metafísica de tal manera que arribes a negar les summes veritats divines i les seves obres. I desitges increpar i desviar els fidels sants del seu fi principal, pel qual existeixen, i arrossegar-los cap a les teves opinions a través de les raons naturals imaginables i sensibles."
     },
