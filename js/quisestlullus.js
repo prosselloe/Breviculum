@@ -54,6 +54,9 @@ function CanviarIdioma(IdMapa, IdIdioma_) {
 
     // window.alert("scrollTo(0, 200)");
     window.scrollTo(0, 900);
+    setTimeout(function(){
+            window.scrollTo(0, 200);
+        }, 2000);
     document.getElementById("0.").focus();
 }
 
