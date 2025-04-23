@@ -9,13 +9,12 @@ and open the template in the editor.
         <title>Breviculum: Vida Coetània de Ramon Llull</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="css/style.css" rel="stylesheet" type="text/css"/>
-        <script>
-            if (localStorage.getItem('IdIdioma') == '')
-                localStorage.setItem("IdIdioma", "ca");
-        </script>          
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>        
     </head>
-    <body onload="document.getElementById('0.').focus();">
+    <body onload="if ((localStorage.getItem('IdIdioma') == null) ||
+                      (localStorage.getItem('IdIdioma') == '')) 
+                       localStorage.setItem('IdIdioma', 'ca'); 
+                  document.getElementById('0.').focus();">
         <table border=1 cellspacing=0 cellpadding=0 style="width:100%;">
             <tr>
                 <td>
