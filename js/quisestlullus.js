@@ -15,7 +15,9 @@ function CanviarIdioma(IdMapa, IdIdioma_) {
     // Finestra(all_maps.map1.ca[1]);
     
     IdIdioma = IdIdioma_;
+    localStorage.setItem("IdIdioma", IdIdioma);
     document.getElementById("bandera").src = "img/" + IdIdioma + ".png";      
+    document.getElementById("Idiomes").value = IdIdioma;
 
     switch(IdMapa) {
       case "map1":  Mapa = all_maps.map1;  break;
@@ -929,8 +931,8 @@ const all_maps = {
       5: "et in ceteris omnibus; et per consequens in eis inaequalitatem, dissimilitudinem et discordiam ponitis, quod in ente in se perfectissimo non licet. Sed si uelletis audire pacifice, per praedictas diuinas dignitates et actus earum uobis manifesto ostendam diuinam trinitatem personarum in una simplicissima essentia et natura, scilicet Patris et Filii et Spiritus sancti."
     },
     'ca': {
-      0: "Déu, oferiu ajuda els vostres fidels.",
-      1: "[a:] Tu dius que coneixes bé les raons necessàries que proven la veritat de les lleis dels cristians, i t’hem donat la proves de la nostra fe de Mahoma.",
+      0: "Déu, oferiu ajuda als vostres fidels.",
+      1: "[a:] Tu dius que coneixes bé les raons necessàries que proven la veritat de les lleis dels cristians, i t’hem donat les proves de les nostres lleis de Mahoma.",
       2: "[b:] Digues, quina de les dues religions mereix més que la sostinguin!",
       3: "[c-d:] Convé que tot home savi segueixi aquella fe que atribueix major bonesa, potestat, glòria i perfecció en concordança de major igualtat al Déu etern en què creuen tots els savis del món. La fe més lloable és aquella que posa la major concordança i conveniència entre el Senyor, que és la causa summa i primera, i els seus efectes.",
       4: "[e:] Però entre vosaltres ja m’adono que tots els que esteu sota la llei de Mahoma no enteneu que, en les predites dignitats divines, els actes propis són substancials, intrínsecs i eterns, sense els quals totes les dignitats serien ocioses des de l’eternitat, cosa que no pot ser. Vull dir l’acte de les dignitats, és a dir el bonificatiu, bonificable i bonificar, i així de tots els altres a la seva manera. Però com que vosaltres atribuïu l’acte predit només a dues dignitats, com estic veient, és a dir a l’enteniment i a la voluntat, queda manifest que vosaltres atribuïu ociositat a totes les altres dignitats divines, és a dir a la bonesa, la grandesa, l’eternitat, el poder, la glòria, la veritat, la virtut i la perfecció i a totes les altres;",
