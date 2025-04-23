@@ -21,7 +21,7 @@ Le Myésier, un seguidor del beat vinculat a la cort de França.
 <tr>
 <td style="vertical-align: bottom;">
 <center>
-<a href="mini_01.html">
+<a href="https://breviculum.netlify.app/mini_01.html">
 <img src="img/mini_01.jpg" style="width:391px;height:391px;"/>
 <br><b>Il·lustració I</b>
 </a>
@@ -29,7 +29,7 @@ Le Myésier, un seguidor del beat vinculat a la cort de França.
 </td>
 <td style="vertical-align: bottom;">
 <center>
-<a href="mini_02.html">
+<a href="https://breviculum.netlify.app/mini_02.html">
 <img src="img/mini_02.jpg" style="width:391px;height:391px;"/>
 <br><b>Il·lustració II</b>
 </a>
@@ -37,7 +37,7 @@ Le Myésier, un seguidor del beat vinculat a la cort de França.
 </td>
 <td style="vertical-align: bottom;">
 <center>
-<a href="mini_03.html">
+<a href="https://breviculum.netlify.app/mini_03.html">
 <img src="img/mini_03.jpg" style="width:391px;height:391px;"/>
 <br><b>Il·lustració III</b>
 </a>
@@ -47,7 +47,7 @@ Le Myésier, un seguidor del beat vinculat a la cort de França.
 <tr>
 <td style="vertical-align: bottom;">
 <center>
-<a href="mini_04.html">
+<a href="https://breviculum.netlify.app/mini_04.html">
 <img src="img/mini_04.jpg" style="width:391px;height:391px;"/>
 <br><b>Il·lustració IV</b>
 </a>
@@ -55,7 +55,7 @@ Le Myésier, un seguidor del beat vinculat a la cort de França.
 </td>
 <td style="vertical-align: bottom;">
 <center>
-<a href="mini_05.html">
+<a href="https://breviculum.netlify.app/mini_05.html">
 <img src="img/mini_05.jpg" style="width:391px;height:391px;"/>
 <br><b>Il·lustració V</b>
 </a>
@@ -63,7 +63,7 @@ Le Myésier, un seguidor del beat vinculat a la cort de França.
 </td>
 <td style="vertical-align: bottom;">
 <center>
-<a href="mini_06.html">
+<a href="https://breviculum.netlify.app/mini_06.html">
 <img src="img/mini_06.jpg" style="width:391px;height:391px;"/>
 <br><b>Il·lustració VI</b>
 </a>
@@ -73,7 +73,7 @@ Le Myésier, un seguidor del beat vinculat a la cort de França.
 <tr>
 <td style="vertical-align: bottom;">
 <center>
-<a href="mini_07.html">
+<a href="https://breviculum.netlify.app/mini_07.html">
 <img src="img/mini_07.jpg" style="width:391px;height:391px;"/>
 <br><b>Il·lustració VII</b>
 </a>
@@ -81,7 +81,7 @@ Le Myésier, un seguidor del beat vinculat a la cort de França.
 </td>
 <td style="vertical-align: bottom;">
 <center>
-<a href="mini_08.html">
+<a href="https://breviculum.netlify.app/mini_08.html">
 <img src="img/mini_08.jpg" style="width:391px;height:391px;"/>
 <br><b>Il·lustració VIII</b>
 </a>
@@ -89,7 +89,7 @@ Le Myésier, un seguidor del beat vinculat a la cort de França.
 </td>
 <td style="vertical-align: bottom;">
 <center>
-<a href="mini_09.html">
+<a href="https://breviculum.netlify.app/mini_09.html">
 <img src="img/mini_09.jpg" style="width:391px;height:391px;"/>
 <br><b>Il·lustració IX</b>
 </a>
@@ -99,7 +99,7 @@ Le Myésier, un seguidor del beat vinculat a la cort de França.
 <tr>
 <td style="vertical-align: bottom;">
 <center>
-<a href="mini_10.html">
+<a href="https://breviculum.netlify.app/mini_10.html">
 <img src="img/mini_10.jpg" style="width:391px;height:391px;"/>
 <br><b>Il·lustració X</b>
 </a>
@@ -107,7 +107,7 @@ Le Myésier, un seguidor del beat vinculat a la cort de França.
 </td>
 <td style="vertical-align: bottom;">
 <center>
-<a href="mini_11.html">
+<a href="https://breviculum.netlify.app/mini_11.html">
 <img src="img/mini_11.jpg" style="width:391px;height:391px;"/>
 <br><b>Il·lustració XI</b>
 </a>
@@ -115,7 +115,7 @@ Le Myésier, un seguidor del beat vinculat a la cort de França.
 </td>
 <td style="vertical-align: bottom;">
 <center>
-<a href="mini_12.html">
+<a href="https://breviculum.netlify.app/mini_12.html">
 <img src="img/mini_12.jpg" style="width:391px;height:391px;"/>
 <br><b>Il·lustració XII</b>
 </a>
