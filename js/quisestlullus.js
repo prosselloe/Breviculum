@@ -52,10 +52,10 @@ function CanviarIdioma(IdMapa, IdIdioma_) {
         // Bafarada(i);
     }
 
-    // window.alert("scrollTo(0, 200)");
-    window.scrollTo(0, 900);
+    // window.alert("scrollTo(0, 220)");
+    window.scrollTo(0, 1220);
     setTimeout(function(){
-            window.scrollTo(0, 200);
+            window.scrollTo(0, 220);
         }, 2000);
     document.getElementById("0.").focus();
 }
