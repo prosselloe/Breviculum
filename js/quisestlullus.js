@@ -9,6 +9,13 @@ var Mapa = {};
 var Idioma = {};
 var IdIdioma = "";
 
+function CanviarZoom(IdImatge) {
+    if (document.getElementById('off').hidden) 
+        document.getElementById(IdImatge).style.width = "";  
+    else
+        document.getElementById(IdImatge).style.width = "100%";
+}
+
 // Canviam els diferents literals de la GUI segons l'idioma
 function CanviarIdioma(IdMapa, IdIdioma_) {
     // window.alert(all_maps.map1.ca[1]);
