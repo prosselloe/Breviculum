@@ -37,7 +37,12 @@ and open the template in the editor.
                 <td><center>
                     <div class="breviculum-language-selector">
                     <img src="img/ca.png" id="bandera" alt="bandera" 
-                         style="width:40px;height:40px;" title="Idioma / Language"><br>    
+                         style="width:40px;height:40px;" title="Idioma / Language">
+                    <button id="zoom" title="On / Off"
+                        onclick="document.getElementById('off').hidden = document.getElementById('on').hidden;
+                                 document.getElementById('on').hidden = !document.getElementById('off').hidden;
+                                 CanviarZoom('mini_11');">
+                        <img src="img/on.png" id="on" hidden><img src="img/off.png" id="off"></button><br>                        
                     <select id="Idiomes" onchange="CanviarIdioma('map11', this.value)" title="Select">
                         <option value="ca">Català</option>
                         <option value="en">English</option>
@@ -98,7 +103,7 @@ and open the template in the editor.
                               coords="288,419,483,488,455,558,370,529,329,472,302,461,289,444" 
                               id="7" onclick="Bafarada('7')">    
                      </map>
-                    <img usemap="#map11" src="img/mini_11.jpg" style="width:100%;height:100%;">                                                                                  
+                    <img usemap="#map11" id="mini_11" src="img/mini_11.jpg" style="width:100%;">                                                                                  
                 </div>
                 </td>
             </tr>
