@@ -10,12 +10,12 @@ var Idioma = {};
 var IdIdioma = "";
 
 function CanviarZoom(IdImatge) {
-    document.getElementById('off').hidden = document.getElementById('on').hidden;
-    document.getElementById('on').hidden = !document.getElementById('off').hidden;    
-    if (document.getElementById('off').hidden) 
-        document.getElementById(IdImatge).style.width = "";  
-    else
-        document.getElementById(IdImatge).style.width = "100%";
+    document.getElementById('out').hidden = document.getElementById('in').hidden;
+    document.getElementById('in').hidden = !document.getElementById('out').hidden;    
+    if (document.getElementById('out').hidden) {
+        document.getElementById(IdImatge).style.width = ""; }
+    else {
+        document.getElementById(IdImatge).style.width = "100%"; }
 }
 
 // Canviam els diferents literals de la GUI segons l'idioma
