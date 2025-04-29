@@ -10,6 +10,8 @@ var Idioma = {};
 var IdIdioma = "";
 
 function CanviarZoom(IdImatge) {
+    document.getElementById('off').hidden = document.getElementById('on').hidden;
+    document.getElementById('on').hidden = !document.getElementById('off').hidden;    
     if (document.getElementById('off').hidden) 
         document.getElementById(IdImatge).style.width = "";  
     else
@@ -65,6 +67,13 @@ function CanviarIdioma(IdMapa, IdIdioma_) {
             window.scrollTo(0, 220);
         }, 2000);
     document.getElementById("0.").focus();
+}
+
+function Globus(IdText)
+{
+    // window.alert('Globus: ' + Idioma[IdText]);
+    return overlib(Idioma[IdText], WIDTH, 250, HEIGHT, 20, CENTER, BELOW, 
+                   SNAPX, 10, SNAPY, 5, BGCOLOR, '#000068', FGCOLOR, '#FFCC00');
 }
 
 function Bafarada(IdText, X = 200, Y = 200)
