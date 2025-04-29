@@ -11,7 +11,8 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/style.css" rel="stylesheet" type="text/css"/>        
     </head>
-    <body onload="if ((localStorage.getItem('IdIdioma') == null) ||
+    <body style="background-image: url('img/fons.jpg');" 
+          onload="if ((localStorage.getItem('IdIdioma') == null) ||
                       (localStorage.getItem('IdIdioma') == '')) {
                        localStorage.setItem('IdIdioma', 'ca'); } 
                   document.getElementById('0.').focus();">
