@@ -14,7 +14,10 @@ and open the template in the editor.
     <body style="background-image: url('img/fons.jpg');" 
           onload="if ((localStorage.getItem('IdIdioma') == null) ||
                       (localStorage.getItem('IdIdioma') == '')) {
-                       localStorage.setItem('IdIdioma', 'ca'); } 
+                       localStorage.setItem('IdIdioma', 'ca'); 
+                  if ((localStorage.getItem('IdZoom') == null) ||
+                      (localStorage.getItem('IdZoom') == '')) {
+                       localStorage.setItem('IdZoom', 'in');
                   document.getElementById('0.').focus();">
         <table border=1 cellspacing=0 cellpadding=0 style="width:100%;">
             <tr>
