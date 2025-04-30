@@ -9,13 +9,26 @@ var Mapa = {};
 var Idioma = {};
 var IdIdioma = "";
 
-function CanviarZoom(IdImatge) {
-    document.getElementById('out').hidden = document.getElementById('in').hidden;
-    document.getElementById('in').hidden = !document.getElementById('out').hidden;    
-    if (document.getElementById('out').hidden) {
-        document.getElementById(IdImatge).style.width = ""; }
-    else {
-        document.getElementById(IdImatge).style.width = "100%"; }
+function CanviarZoom(IdImatge, IdZoom = "") {
+    // alert(IdImatge + ", " + IdZoom);
+    if (IdZoom != "") {
+        if (localStorage.getItem('IdZoom') == 'in') {
+            document.getElementById('out').hidden = true;
+        } else {
+            document.getElementById('out').hidden = false;            
+        }
+        document.getElementById('in').hidden = !document.getElementById('out').hidden;
+    } else {
+        document.getElementById('out').hidden = document.getElementById('in').hidden;
+        document.getElementById('in').hidden = !document.getElementById('out').hidden;
+    }
+    if (document.getElementById('in').hidden) {
+        document.getElementById(IdImatge).style.width = ""; 
+        localStorage.setItem("IdZoom", 'out');    
+    } else {
+        document.getElementById(IdImatge).style.width = "100%"; 
+        localStorage.setItem("IdZoom", 'in');    
+    }
 }
 
 // Canviam els diferents literals de la GUI segons l'idioma
